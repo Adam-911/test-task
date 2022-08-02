@@ -1,0 +1,17 @@
+.tool-bar {
+    height: 50px;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    // flex-direction: row-reverse;
+    &__pagination {
+        margin-left: 105px;
+        justify-self: center;
+    }
+    &__dropdown {
+        display: flex;
+        gap: 7px;
+        justify-self: end;
+    }
+}
