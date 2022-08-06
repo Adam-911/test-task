@@ -13,5 +13,12 @@
         display: flex;
         gap: 7px;
         justify-self: end;
+        align-items: center;
+        font-size: 12px;
+        &__select {
+            border: 1px solid #ECEFF1;
+            border-radius: 3px;
+            padding: 4px 8px;
+        }
     }
 }

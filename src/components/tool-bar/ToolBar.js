@@ -15,7 +15,7 @@ export default function ToolBar() {
             </div>
             <span className="tool-bar__dropdown">
                 <span>Показывать по</span>
-                <select name="select">
+                <select className="tool-bar__dropdown__select" name="select">
                 <option value="value1">15</option>
                 <option value="value2" selected>20</option>
                 <option value="value3">50</option>
